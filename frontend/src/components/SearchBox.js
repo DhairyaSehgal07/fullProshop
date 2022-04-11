@@ -13,11 +13,6 @@ const SearchBox = () => {
         if (keyword.trim()) {
         
             navigate(`/search/${keyword}`)
-            document.location.reload() 
-
-            setTimeout(document.location.reload(), 5000);
-
-    
         
         } else {
             navigate('/'  )

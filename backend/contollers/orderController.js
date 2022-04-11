@@ -49,15 +49,12 @@ const addOrderItems = asyncHandler( async (req,res) => {
 
 const getOrderById = asyncHandler( async (req,res) => {
  
-    let { id } = req.params.id;
+    let { id }  = req.params.id;
 
-    //req.params.id ME PANGA HAI BABU BHAIYA
-
-    const order = await Order.findOne(id).populate(
+   const order = await Order.findOne(id).populate(
         'user',
         'name email',
     )
-
 
 
 if (order) {
@@ -78,11 +75,7 @@ const updateOrderToPaid = asyncHandler( async (req,res) => {
  
     let  id  = req.params.id;
 
-    //req.params.id ME PANGA HAI BABU BHAIYA
-
     const order = await Order.findById(id)
-
-
 
     if (order) {    
         order.isPaid = true

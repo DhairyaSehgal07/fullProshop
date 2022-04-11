@@ -49,7 +49,7 @@ const navigate=useNavigate()
 
               <Form.Group controlId='password'>
                   <Form.Label className='mt-2'>Password</Form.Label>
-                  <Form.Control type='current-password' placeholder='Enter password' value={password} onChange={(e) => setPassword(e.target.value)}>
+                  <Form.Control type='password' placeholder='Enter password' value={password} onChange={(e) => setPassword(e.target.value)}>
                       
                   </Form.Control>
               </Form.Group>

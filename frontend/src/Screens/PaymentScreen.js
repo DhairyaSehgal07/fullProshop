@@ -24,7 +24,7 @@ const PaymentScreen = () => {
         e.preventDefault()
         dispatch(savePaymentMethod( paymentMethod ))
         navigate('/placeorder')
-        document.location.reload()
+    
    }
     
 

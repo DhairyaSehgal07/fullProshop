@@ -46,20 +46,21 @@ text-decoration: none;
 }
 
 
-.carousel-caption h2{
+.carousel-caption h3{
   color: #fff;
+  letter-spacing: 2.8px;
 }
 
 .carousel img{
   height: 250px;
-  width: 260px;
+  width: 250px;
   padding: 30px;
   margin:40px;
   margin-top:80px;
-  margin-left:128px;
+  margin-left:62px;
   border-radius: 50%;
  
-  /* margin-left:456px; */
+  /* margin-left:516px; */
 }
 
 .carousel a{

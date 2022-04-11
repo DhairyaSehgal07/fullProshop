@@ -70,7 +70,7 @@ const navigate=useNavigate()
 
               <Form.Group controlId='password'>
                   <Form.Label className='mt-2'>Password</Form.Label>
-                  <Form.Control type='current-password' placeholder='Enter password' value={password} onChange={(e) => setPassword(e.target.value)}>
+                  <Form.Control type='password' placeholder='Enter password' value={password} onChange={(e) => setPassword(e.target.value)}>
                       
                   </Form.Control>
               </Form.Group>
@@ -79,7 +79,7 @@ const navigate=useNavigate()
 
               <Form.Group controlId='confirmpassword'>
                   <Form.Label className='mt-2'>Confirm Password</Form.Label>
-                  <Form.Control type='current-password' placeholder='Confirm password' value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}>
+                  <Form.Control type='password' placeholder='Confirm password' value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}>
                       
                   </Form.Control>
               </Form.Group>

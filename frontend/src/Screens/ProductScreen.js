@@ -67,7 +67,7 @@ const ProductScreen = ({ match, }) => {
   }
   
   const submitHandler = (e) => {
-    document.location.reload()
+    
     e.preventDefault()
     dispatch(createProductReview(id, { rating, comment })
      
